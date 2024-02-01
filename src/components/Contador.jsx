@@ -11,6 +11,7 @@ const Contador = () => {
       <button className="btn btn-primary" onClick={() => setNumero(numero + 1)}>
         +1
       </button>
+      {/* Agregar un bton de decremento */}
     </article>
   );
 };
