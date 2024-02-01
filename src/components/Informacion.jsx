@@ -1,8 +1,10 @@
 const Informacion = (props) => {
+// const Informacion = ({tituloSecundario}) => {
     return (
         <section>
-            <h2>Conceptos Básicos de React</h2>
+            <h2>Conceptos Básicos de React {props.anioActualProps}</h2>
             <h3>{props.tituloSecundario}</h3>
+            {/* <h3>{tituloSecundario}</h3> */}
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ullam mollitia necessitatibus placeat, perspiciatis rem ipsa deserunt harum blanditiis facilis obcaecati, laboriosam ipsum voluptatibus quisquam facere dolorum exercitationem explicabo unde?
                 Voluptate asperiores magnam molestiae impedit similique perferendis sapiente accusantium natus illo, id neque recusandae repellendus non veniam molestias autem praesentium aliquam ea necessitatibus ducimus saepe facilis nemo. Incidunt, magnam neque.
